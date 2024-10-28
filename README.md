@@ -1,17 +1,18 @@
-print("I have a class of 33 students.")
-print("There are 11 girls, so that means..")
-print("there are " + str(33 - 11) + " boys.")
-print()
-print(f"That means {11 / 33} % are girls...")
-print("and {} % are boys.".format((33 - 11) / 33))
-print()
-print("If we made groups of six...")
-print(f"There would be {33 // 6} groups of six.")
-print(f"And then a smaller group of {33 % 6} people.")
-print("-" * 30)
-print("If we had 17 apples and 3 people...")
-print(f"Each person would get {17 // 3} whole apples.")
-print("There would be " + str(17 % 3) + " apples remaining.")
-print()
-print("If we charged each person $2 each for their 5 apples..")
-print("they would each pay ${}.".format(2 * 5))
+a = 5 #integer
+b = 7.1234 #flaot
+
+print(a + b)
+
+pizzas = 32 / 10
+print(pizzas)
+
+apple = 5
+price_per_apple = 0.99
+total = apple * price_per_apple
+print(total)
+
+# convert to request user input
+flowers = int(input("number of flowers: "))
+bushes = int(input("number of bushes: "))
+plants = flowers + bushes 
+print(f"You have {plants} plants")
